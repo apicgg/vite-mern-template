@@ -1,5 +1,7 @@
-> Simple Vite template with React and Redux Toolkit
-> This include React+TS with familiar configuration for vite.config.ts
+# vite-react-ts-reduxtoolkit-template
+
+> Simple Vite template with React and Redux Toolkit.
+> This include React+TS with familiar configuration for vite.config.ts.
 
 This is the official [Vite](https://vitejs.dev/) template(`npm create vite@latest myapp --template react-ts`) and some extended setup.
 
