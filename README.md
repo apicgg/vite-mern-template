@@ -19,16 +19,16 @@ npx degit apicgg/vite-react-ts-reduxtoolkit-template my-app
 
 ```
 cd myapp
-yarn
-yarn dev
-```
+npm install
+npm run dev
+...
 
-or npm
+or yarn
 
 ```
 cd myapp
-npm install
-npm run dev
+yarn
+yarn dev
 ```
 
 # License
