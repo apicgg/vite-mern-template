@@ -1,7 +1,7 @@
 # vite-react-ts-reduxtoolkit-template
 
-> Simple Vite template for MERN stack with Vite and Redux Toolkit.
-> This include React+TypeScript with familiar configuration for vite.config.ts.
+> Simple template for MERN stack with Vite and Redux Toolkit.
+> This includes React+TypeScript with familiar configuration for vite.config.ts.
 
 This is the official [Vite](https://vitejs.dev/) template(`npm create vite@latest myapp --template react-ts`) and some extended setup.
 
