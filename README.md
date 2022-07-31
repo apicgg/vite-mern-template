@@ -10,8 +10,8 @@ This is the official [Vite](https://vitejs.dev/) template(`npm create vite@lates
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Axios](https://axios-http.com/)
 - [React Icons](https://react-icons.github.io/react-icons)
-- [REACT ROUTER DOM](https://reactrouter.com/)
-- [REACT Toastify](https://github.com/fkhadra/react-toastify)
+- [React Router DOM](https://reactrouter.com/)
+- [React Toastify](https://github.com/fkhadra/react-toastify)
 
 # Installation
 
