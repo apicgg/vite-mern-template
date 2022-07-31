@@ -13,6 +13,10 @@ This is the official [Vite](https://vitejs.dev/) template(`npm create vite@lates
 - [React Router DOM](https://reactrouter.com/)
 - [React Toastify](https://github.com/fkhadra/react-toastify)
 
+# Demo
+
+![vite-mern](https://user-images.githubusercontent.com/78271602/182014608-7f5508d8-960b-47b3-9561-2c8c9023dd31.gif)
+
 # Installation
 
 ```bash
