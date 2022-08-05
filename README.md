@@ -1,4 +1,4 @@
-# vite-react-ts-reduxtoolkit-template
+# vite-mern-template
 
 > Simple template for MERN stack with Vite and Redux Toolkit.
 > This includes React+TypeScript with familiar configuration for vite.config.ts.
@@ -15,26 +15,24 @@ This is the official [Vite](https://vitejs.dev/) template(`npm create vite@lates
 
 # Demo
 
-![vite-mern](https://user-images.githubusercontent.com/78271602/182014608-7f5508d8-960b-47b3-9561-2c8c9023dd31.gif)
-
 # Installation
 
 ```bash
-npx degit apicgg/vite-react-ts-reduxtoolkit-template my-app
+npx degit apicgg/vite-mern-template my-app
 ```
+
+```bash
+cd myapp
+yarn
+yarn run dev
+```
+
+or npm
 
 ```bash
 cd myapp
 npm install
 npm run dev
-```
-
-or yarn
-
-```bash
-cd myapp
-yarn
-yarn dev
 ```
 
 # License
@@ -48,10 +46,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
+<!-- <table>
   <tr>
     <td align="center"><a href="http://apicgg.github.io/"><img src="https://avatars.githubusercontent.com/u/78271602?v=4" width="100px;" alt=""/><br /><sub><b>apicgg</b></sub></a><br /><a href="https://github.com/apicgg/vite-react-ts-reduxtoolkit-template/commits?author=apicgg" title="Code">💻</a> <a href="https://github.com/apicgg/vite-react-ts-reduxtoolkit-template#readme" title="Documentation">📖</a>
-</table>
+</table> -->
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
