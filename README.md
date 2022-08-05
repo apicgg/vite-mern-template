@@ -15,6 +15,8 @@ This is the official [Vite](https://vitejs.dev/) template(`npm create vite@lates
 
 # Demo
 
+![vite-mern](https://user-images.githubusercontent.com/78271602/183138576-2dd5e3f6-b86f-4fc0-933f-1e9413663960.gif)
+
 # Installation
 
 ```bash
