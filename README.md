@@ -3,7 +3,7 @@
 > Simple template for MERN stack with Vite and Redux Toolkit.
 > This includes React+TypeScript with familiar configuration for vite.config.ts.
 
-This is the official [Vite](https://vitejs.dev/) template(`npm create vite@latest my-app --template react-ts`) and some extended setup.
+This is the official [Vite](https://vitejs.dev/) template(`npm create vite@latest my-app --template react-ts`) and some extended setup. There are two separate folders for backend and frontend. The entry point for the backend is `server.js`.
 
 # Tools
 
@@ -12,6 +12,11 @@ This is the official [Vite](https://vitejs.dev/) template(`npm create vite@lates
 - [React Icons](https://react-icons.github.io/react-icons)
 - [React Router DOM](https://reactrouter.com/)
 - [React Toastify](https://github.com/fkhadra/react-toastify)
+- [Express](https://expressjs.com/)
+- [mongoose](https://mongoosejs.com/)
+- [bcrypt.js](https://www.npmjs.com/package/bcryptjs)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [express-async-handler](https://www.npmjs.com/package/express-async-handler)
 
 # Demo
 
@@ -24,7 +29,7 @@ npx degit apicgg/vite-mern-template my-app
 ```
 
 ```bash
-cd myapp
+cd my-app
 yarn
 yarn run dev
 ```
@@ -32,7 +37,7 @@ yarn run dev
 or npm
 
 ```bash
-cd myapp
+cd my-app
 npm install
 npm run dev
 ```
