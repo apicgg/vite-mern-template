@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
-    "client": "yarn start --prefix frontend",
+    "client": "yarn --cwd ./frontend start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "repository": "https://github.com/apicgg/vite-mern-template.git",
