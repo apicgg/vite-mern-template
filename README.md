@@ -32,6 +32,9 @@ npx degit apicgg/vite-mern-template my-app
 ```bash
 cd my-app
 yarn
+cd frontend
+yarn
+cd ..
 yarn run dev
 ```
 
@@ -40,6 +43,9 @@ or npm (remove the yarn.lock then run the below commands)
 ```bash
 cd my-app
 npm install
+cd frontend
+npm install
+cd ..
 npm run dev
 ```
 
