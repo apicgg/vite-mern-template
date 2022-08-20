@@ -21,7 +21,7 @@ This is the official [Vite](https://vitejs.dev/) template(`yarn create vite`) an
 
 # Demo
 
-![vite-mern](https://user-images.githubusercontent.com/78271602/183138576-2dd5e3f6-b86f-4fc0-933f-1e9413663960.gif)
+![vite-mern](https://user-images.githubusercontent.com/78271602/185754841-ad2b8db8-f261-4c31-83d5-a0cb91fe233c.gif)
 
 # Installation
 
