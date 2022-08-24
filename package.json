@@ -1,6 +1,6 @@
 {
   "name": "vite-mern-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
