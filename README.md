@@ -31,22 +31,22 @@ npx degit apicgg/vite-mern-template my-app
 
 ```bash
 cd my-app
-yarn
+npm install
 cd frontend
-yarn
+npm install
 cd ..
-yarn run dev
+npm run dev
 ```
 
-or npm (remove the yarn.lock then run the below commands)
+or yarn (remove the package-lock.json then run the below commands)
 
 ```bash
 cd my-app
-npm install
+yarn
 cd frontend
-npm install
+yarn
 cd ..
-npm run dev-npm
+yarn dev
 ```
 
 # License
