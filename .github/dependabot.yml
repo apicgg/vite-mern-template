@@ -11,11 +11,11 @@ updates:
     directory: "/"
     # Check for updates once a week
     schedule:
-      interval: "weekly"
+      interval: "monthly"
 
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/frontend"
     # Check for updates once a week
     schedule:
-      interval: "weekly"
+      interval: "monthly"
