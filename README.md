@@ -21,7 +21,7 @@ This is the official [Vite](https://vitejs.dev/) template(`npm create vite@lates
 
 # Demo
 
-![vite-mern](https://user-images.githubusercontent.com/78271602/185754841-ad2b8db8-f261-4c31-83d5-a0cb91fe233c.gif)
+![vite-mern-demo](https://user-images.githubusercontent.com/78271602/205232126-fdb51abd-d88f-48a9-bf0e-663a23aedb4c.gif)
 
 # Installation
 
@@ -36,17 +36,6 @@ cd frontend
 npm install
 cd ..
 npm run dev
-```
-
-or yarn (remove the package-lock.json then run the below commands)
-
-```bash
-cd my-app
-yarn
-cd frontend
-yarn
-cd ..
-yarn dev
 ```
 
 # License
