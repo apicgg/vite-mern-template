@@ -5,7 +5,7 @@
 
 This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders for backend and frontend. The entry point for the backend is `server.js`. Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this.
 
-# Tools
+## Tools
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -20,11 +20,11 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [express-async-handler](https://www.npmjs.com/package/express-async-handler)
 
-# Demo
+## Demo
 
 ![vite-mern-demo](https://user-images.githubusercontent.com/78271602/205232126-fdb51abd-d88f-48a9-bf0e-663a23aedb4c.gif)
 
-# Installation
+## Installation
 
 ```bash
 npx degit apicgg/vite-mern-template my-app
@@ -41,10 +41,10 @@ npm run dev
 
 - You can remove the .git and .github folder and initialize your own git repository.
 
-# License
+## License
 
 MIT
 
-# Contributors ✨
+## Contributors ✨
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
