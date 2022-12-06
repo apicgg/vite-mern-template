@@ -36,10 +36,11 @@ npm install
 cd frontend
 npm install
 cd ..
+npm run watch
 npm run dev
 ```
 
-- You can remove the .git and .github folder and initialize your own git repository.
+- Remove the .git and .github folder and initialize your own git repository.
 
 ## License
 
