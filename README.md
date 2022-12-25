@@ -32,15 +32,16 @@ npx degit apicgg/vite-mern-template my-app
 
 ```bash
 cd my-app
+cd client
 npm install
-cd frontend
+cd ../server
 npm install
-cd ..
 npm run watch
 npm run dev
 ```
 
 - Remove the .git and .github folder and initialize your own git repository.
+- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev`. `ts-node` can be used this to avoid this.
 
 ## License
 
