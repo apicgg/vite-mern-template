@@ -23,6 +23,5 @@
     "resolveJsonModule": true,
     "baseUrl": "."
   },
-  "exclude": ["node_modules"],
-  "include": ["./backend/**/*.ts"]
+  "exclude": ["node_modules"]
 }
