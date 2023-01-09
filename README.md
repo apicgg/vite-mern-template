@@ -8,6 +8,7 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 ## Tools
 
 - [React](https://reactjs.org/)
+- [tailwindcss](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Axios](https://axios-http.com/)
