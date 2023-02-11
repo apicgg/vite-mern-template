@@ -9,13 +9,13 @@ updates:
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/server"
-    # Check for updates once a week
+    # Check for updates
     schedule:
-      interval: "monthly"
+      interval: "3 months"
 
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/client"
-    # Check for updates once a week
+    # Check for updates
     schedule:
-      interval: "monthly"
+      interval: "3 months"
