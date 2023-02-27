@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
-    "@types/express": "^4.17.16",
+    "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/node": "^18.14.0",
     "concurrently": "^7.6.0",
