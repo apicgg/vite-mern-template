@@ -1,9 +1,11 @@
 {
-  "name": "vite-react-ts-reduxtoolkit-template",
+  "name": "vite-mern-template",
   "version": "1.0.0",
   "type": "module",
+  "repository": "https://github.com/apicgg/vite-mern-template.git",
+  "license": "MIT",
   "scripts": {
-    "start": "vite --port 3000",
+    "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },

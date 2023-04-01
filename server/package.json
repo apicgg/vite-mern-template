@@ -1,15 +1,14 @@
 {
   "name": "vite-mern-template",
   "version": "1.0.0",
-  "main": "server/index.js",
+  "main": "src/index.js",
   "scripts": {
     "watch": "tsc -w",
-    "server": "nodemon build/index.js",
-    "client": "npm start --prefix ../client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon dist/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix ../client"
   },
   "repository": "https://github.com/apicgg/vite-mern-template.git",
-  "author": "Anurag Pramanik <p.anurag@outlook.com>",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
