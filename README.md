@@ -8,7 +8,7 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 ## Tools
 
 - [React](https://reactjs.org/)
-- [tailwindcss](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Axios](https://axios-http.com/)
@@ -42,7 +42,11 @@ npm run dev
 ```
 
 - Remove the .git and .github folder and initialize your own git repository.
-- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev`. `ts-node` can be used this to avoid this.
+- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files need to be compiled to JavaScript before staring with node. `ts-node` can be used this to avoid this.
+
+## TODO
+
+- Create a npm CLI library for scaffolding projects.
 
 ## License
 
@@ -50,4 +54,4 @@ MIT
 
 ## Contributors ✨
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Contributions of any kind welcome!
