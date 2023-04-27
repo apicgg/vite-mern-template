@@ -3,7 +3,9 @@
 > Simple opinionated template for MERN stack with Vite and Redux Toolkit.
 > This includes React+TypeScript with familiar configuration for vite.config.ts.
 
-This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders for backend and frontend. The entry point for the backend is `server.js`. Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this.
+This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `server` and `client`. The entry point for the backend is `server/src/index.js`.
+
+> Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this project.
 
 ## Tools
 
@@ -54,4 +56,4 @@ MIT
 
 ## Contributors ✨
 
-Contributions of any kind welcome!
+Contributions of any kind welcome! Kindly have a look into [Contributing Guidelines](CONTRIBUTING.md)
