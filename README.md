@@ -14,9 +14,7 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Axios](https://axios-http.com/)
-- [React Icons](https://react-icons.github.io/react-icons)
 - [React Router DOM](https://reactrouter.com/)
-- [React Toastify](https://github.com/fkhadra/react-toastify)
 - [Express](https://expressjs.com/)
 - [mongoose](https://mongoosejs.com/)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs)
@@ -33,18 +31,27 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 npx degit apicgg/vite-mern-template my-app
 ```
 
+## Install dependencies
+
 ```bash
 cd my-app
 cd client
 npm install
-cd ../server
+cd ..
 npm install
+```
+
+## Start the development server
+
+```bash
 npm run watch
 npm run dev
 ```
 
-- Remove the .git and .github folder and initialize your own git repository.
-- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files need to be compiled to JavaScript before staring with node. `ts-node` can be used this to avoid this.
+- Run the above two commands on different terminal sessions.
+
+- Remove the .git folder and initialize your own git repository.
+- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files need to be compiled to JavaScript before staring the dev server with node. `ts-node` can be used this to avoid this.
 
 ## TODO
 
@@ -52,7 +59,9 @@ npm run dev
 
 ## License
 
-MIT
+MIT License.
+
+Please review the [License](https://github.com/apicgg/vite-mern-template/blob/main/LICENSE) and remove all of my personal information (resume, images, etc.).
 
 ## Contributors ✨
 
