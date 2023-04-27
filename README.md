@@ -23,7 +23,7 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 
 ## Demo
 
-![vite-mern-demo](https://user-images.githubusercontent.com/78271602/205232126-fdb51abd-d88f-48a9-bf0e-663a23aedb4c.gif)
+![vite-mern-template-gh-demo](https://user-images.githubusercontent.com/78271602/234833309-fe8df564-2895-4727-be1e-c807fe142333.gif)
 
 ## Installation
 
