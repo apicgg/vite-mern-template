@@ -61,7 +61,7 @@ npm run dev
 
 MIT License.
 
-Please review the [License](https://github.com/apicgg/vite-mern-template/blob/main/LICENSE) and remove all of my personal information (resume, images, etc.).
+Please review the [License](https://github.com/apicgg/vite-mern-template/blob/main/LICENSE).
 
 ## Contributors ✨
 
