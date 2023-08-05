@@ -57,6 +57,7 @@ npm run dev
 
 ## TODO
 
+- Include testing frameworks, eslint and prettier.
 - Create a npm CLI library for scaffolding projects.
 
 ## License
