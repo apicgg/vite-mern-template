@@ -23,7 +23,7 @@
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "^20.5.7",
-    "concurrently": "^8.0.1",
+    "concurrently": "^8.2.1",
     "typescript": "^5.2.2"
   }
 }
