@@ -8,6 +8,8 @@
 
 This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `server` and `client`. The entry point for the backend is `server/src/index.js`.
 
+Any package manager can be used with this project (e.g. npm, yarn or pnpm).
+
 > Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this project.
 
 ## Tools
