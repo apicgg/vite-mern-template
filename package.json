@@ -1,12 +1,15 @@
 {
   "name": "vite-mern-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "server/src/index.ts",
   "scripts": {
-    "watch": "tsc -w",
+    "watch": "tsc --watch",
     "server": "node --watch dist/index.js",
     "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build:server": "tsc",
+    "build:client": "npm run build --prefix ./client",
+    "build:all": "concurrently \"npm run build:server\" \"npm run build:client\""
   },
   "repository": "https://github.com/apicgg/vite-mern-template.git",
   "license": "MIT",
