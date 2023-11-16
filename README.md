@@ -59,6 +59,7 @@ npm run dev
 
 - Remove the .git folder and initialize your own git repository.
 - In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files need to be compiled to JavaScript before staring the dev server with node. `ts-node` can be used this to avoid this.
+- To build run `npm run build:all` to build both the client and the server.
 
 ## TODO
 
