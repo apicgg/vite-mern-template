@@ -7,6 +7,7 @@
     "server": "node --watch dist/index.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "prettier": "prettier . --write",
     "build:server": "tsc",
     "build:client": "npm run build --prefix ./client",
     "build:all": "concurrently \"npm run build:server\" \"npm run build:client\""
@@ -27,6 +28,7 @@
     "@types/jsonwebtoken": "^9.0.3",
     "@types/node": "^20.5.7",
     "concurrently": "^8.2.1",
+    "prettier": "3.1.0",
     "typescript": "^5.2.2"
   }
 }
