@@ -38,7 +38,7 @@ Any package manager can be used with this project (e.g. npm, yarn or pnpm).
 npx degit apicgg/vite-mern-template my-app
 ```
 
-## Install dependencies
+## Install dependencies (npm or yarn or pnpm)
 
 ```bash
 cd my-app
@@ -58,7 +58,7 @@ npm run dev
 - Run the above two commands on different terminal sessions.
 
 - Remove the .git folder and initialize your own git repository.
-- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files need to be compiled to JavaScript before staring the dev server with node. `ts-node` can be used this to avoid this.
+- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files (backend) need to be compiled to JavaScript before staring the dev server with node. `ts-node` can be used this to avoid this.
 - To build run `npm run build:all` to build both the client and the server.
 
 ## TODO
