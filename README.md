@@ -28,6 +28,10 @@ Any package manager can be used with this project (e.g. npm, yarn or pnpm).
 
 #### The dependency versions are managed by [depfu](https://depfu.com/).
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en/) 18+
+
 ## Demo
 
 ![vite-mern-template-gh-demo](https://user-images.githubusercontent.com/78271602/234833309-fe8df564-2895-4727-be1e-c807fe142333.gif)
@@ -40,26 +44,37 @@ npx degit apicgg/vite-mern-template my-app
 
 ## Install dependencies (npm or yarn or pnpm)
 
+- Backend
+
 ```bash
-cd my-app
-cd client
 npm install
-cd ..
+```
+
+- Frontend
+
+```bash
+cd client
 npm install
 ```
 
 ## Start the development server
 
+- Backend
+
 ```bash
 npm run watch
-npm run dev
+npm run server
 ```
 
-- Run the above two commands on different terminal sessions.
+- Frontend
+
+```bash
+npm run client
+```
 
 - Remove the .git folder and initialize your own git repository.
-- In this case `npm run watch` needs to be executed before starting the development server with `npm run dev` as the TypeScript files (backend) need to be compiled to JavaScript before staring the dev server with node. `ts-node` can be used this to avoid this.
-- To build run `npm run build:all` to build both the client and the server.
+- In this case `npm run watch` needs to be executed before starting the development server with `npm run server` on different terminal sessions as the TypeScript files (backend) need to be compiled to JavaScript before staring the dev server with node.
+- To build run `npm run build:server` and `npm run build:client`.
 
 ## TODO
 
