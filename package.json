@@ -9,8 +9,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "prettier": "prettier . --write",
     "build:server": "tsc",
-    "build:client": "npm run build --prefix ./client",
-    "build:all": "concurrently \"npm run build:server\" \"npm run build:client\""
+    "build:client": "npm run build --prefix ./client"
   },
   "repository": "https://github.com/apicgg/vite-mern-template.git",
   "license": "MIT",
