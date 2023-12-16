@@ -55,7 +55,7 @@ npm install
 - Frontend
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
@@ -64,19 +64,16 @@ npm install
 - Backend
 
 ```bash
-npm run watch
-npm run server
+npm run dev:be
 ```
 
 - Frontend
 
 ```bash
-npm run client
+npm run dev:fe
 ```
 
 - Remove the .git folder and initialize your own git repository.
-- In this case `npm run watch` needs to be executed before starting the development server with `npm run server` on different terminal sessions as the TypeScript files (backend) need to be compiled to JavaScript before staring the dev server with node.
-- To build run `npm run build:server` and `npm run build:client`.
 
 ## TODO
 
