@@ -1,15 +1,17 @@
 {
   "name": "vite-mern-template",
   "version": "1.0.1",
-  "main": "server/src/index.ts",
+  "main": "backend/src/index.ts",
   "scripts": {
     "watch": "tsc --watch",
-    "server": "node --watch dist/index.js",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "prettier": "prettier . --write",
-    "build:server": "tsc",
-    "build:client": "npm run build --prefix ./client"
+    "backend": "node --watch build/index.js",
+    "dev:be": "concurrently \"npm run watch\" \"npm run backend\"",
+    "dev:fe": "npm start --prefix ./frontend",
+    "check-types": "tsc",
+    "prettier": "prettier --write .",
+    "build:backend": "tsc",
+    "build:frontend": "npm run build --prefix ./frontend",
+    "build": "tsc && npm run build:frontend"
   },
   "repository": "https://github.com/apicgg/vite-mern-template.git",
   "license": "MIT",
@@ -28,7 +30,7 @@
     "@types/node": "^20.5.7",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
-    "concurrently": "^8.2.1",
+    "concurrently": "^8.2.2",
     "eslint": "^8.53.0",
     "prettier": "3.1.0",
     "typescript": "^5.2.2"
