@@ -5,7 +5,7 @@
     "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
     "skipLibCheck": true,
     "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": "./build",
     "moduleResolution": "node",
     "removeComments": true,
     "noImplicitAny": true,
@@ -23,5 +23,5 @@
     "resolveJsonModule": true
   },
   "exclude": ["node_modules"],
-  "include": ["./server/src"]
+  "include": ["backend/src"]
 }
