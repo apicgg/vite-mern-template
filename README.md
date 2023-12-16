@@ -20,6 +20,8 @@ Any package manager can be used with this project (e.g. npm, yarn or pnpm).
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Axios](https://axios-http.com/)
 - [React Router DOM](https://reactrouter.com/)
+- [Vitest](https://vitest.dev/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Express](https://expressjs.com/)
 - [mongoose](https://mongoosejs.com/)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs)
@@ -79,7 +81,7 @@ npm run client
 ## TODO
 
 - [x] Include eslint and prettier.
-- [ ] Add testing frameworks.
+- [x] Add testing framework.
 - [ ] Create a npm CLI library for scaffolding projects.
 
 ## License
