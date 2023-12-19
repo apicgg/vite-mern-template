@@ -73,7 +73,7 @@ npm run dev:be
 npm run dev:fe
 ```
 
-- Remove the .git folder and initialize your own git repository.
+- Remove the .git and .github folder and initialize your own git repository.
 
 ## TODO
 
