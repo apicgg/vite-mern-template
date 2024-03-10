@@ -6,27 +6,29 @@
 > Simple opinionated boilerplate for MERN stack with Vite and Redux Toolkit.
 > This includes React+TypeScript with familiar configuration for vite.config.ts for front-end and Express+TypeScript for back-end.
 
-This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `server` and `client`. The entry point for the backend is `server/src/index.js`.
+Feel free to add or tweak the setup as needed.
 
-Any package manager can be used with this project (e.g. npm, yarn or pnpm).
+This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `backend` and `frontend`. The entry point for the backend is `backend/src/index.js`.
+
+Any package manager can be used with this project (e.g. npm or yarn or pnpm).
 
 > Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this project.
 
 ## Tools
 
 - [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [Axios](https://axios-http.com/)
 - [React Router DOM](https://reactrouter.com/)
-- [Vitest](https://vitest.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Vitest](https://vitest.dev/)
 - [Express](https://expressjs.com/)
-- [mongoose](https://mongoosejs.com/)
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs)
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [express-async-handler](https://www.npmjs.com/package/express-async-handler)
+- [mongoose](https://mongoosejs.com/)
+- [argon2](https://www.npmjs.com/package/argon2)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 #### The dependency versions are managed by [depfu](https://depfu.com/).
 
@@ -42,6 +44,12 @@ Any package manager can be used with this project (e.g. npm, yarn or pnpm).
 
 ```bash
 npx degit apicgg/vite-mern-template my-app
+```
+
+or
+
+```bash
+git clone https://github.com/apicgg/vite-mern-template.git
 ```
 
 ## Install dependencies (npm or yarn or pnpm)
@@ -64,13 +72,13 @@ npm install
 - Backend
 
 ```bash
-npm run dev:be
+npm run dev:backend
 ```
 
 - Frontend
 
 ```bash
-npm run dev:fe
+npm run dev:frontend
 ```
 
 - Remove the .git and .github folder and initialize your own git repository.
