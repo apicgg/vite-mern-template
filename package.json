@@ -32,6 +32,6 @@
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
     "prettier": "3.2.5",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.4"
   }
 }
