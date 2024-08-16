@@ -3,7 +3,8 @@
 [![Depfu](https://badges.depfu.com/badges/1b70410a7764005553d576dd171dce8d/status.svg)](https://depfu.com)
 [![Depfu](https://badges.depfu.com/badges/1b70410a7764005553d576dd171dce8d/count.svg)](https://depfu.com/github/apicgg/vite-mern-template?project_id=38988)
 
-> Simple opinionated boilerplate for MERN stack with Vite and Redux Toolkit.
+> Simple opinionated boilerplate for MERN stack with Vite, Redux Toolkit and TypeScript.
+
 > This includes React+TypeScript with familiar configuration for vite.config.ts for front-end and Express+TypeScript for back-end.
 
 Feel free to add or tweak the setup as needed.
@@ -21,7 +22,7 @@ Any package manager can be used with this project (e.g. npm or yarn or pnpm).
 - [React Router DOM](https://reactrouter.com/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Axios](https://axios-http.com/)
+- [TanStack Query](https://tanstack.com/query/latest)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Vitest](https://vitest.dev/)
 - [Express](https://expressjs.com/)
