@@ -32,8 +32,9 @@ Any package manager can be used with this project (e.g. npm or yarn or pnpm).
 
 ### Back-end
 
-- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en)
 - [Express](https://expressjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [express-async-handler](https://www.npmjs.com/package/express-async-handler)
 - [mongoose](https://mongoosejs.com/)
 - [argon2](https://www.npmjs.com/package/argon2)
