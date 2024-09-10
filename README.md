@@ -13,6 +13,10 @@ This has been created with the official [Vite](https://vitejs.dev/) template (`n
 
 Any package manager can be used with this project (e.g. npm or yarn or pnpm).
 
+```
+If you love this boilerplate, give it a star, you will be a ray of sunshine in our lives :)
+```
+
 > Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this project.
 
 ## Tools & Technology
