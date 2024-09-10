@@ -97,13 +97,12 @@ npm run dev:backend
 npm run dev:frontend
 ```
 
-- Remove the .git and .github folder and initialize your own git repository.
+- Remove the .github folder and initialize your own git repository with ```git init```.
 
 ## TODO
 
 - [x] Include eslint and prettier.
 - [x] Add testing framework.
-- [ ] Create a npm CLI library for scaffolding projects.
 
 ## License
 
