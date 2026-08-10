@@ -1,3 +1,5 @@
+
+
 # vite-mern-template
 
 [![Depfu](https://badges.depfu.com/badges/1b70410a7764005553d576dd171dce8d/status.svg)](https://depfu.com)
@@ -9,7 +11,7 @@
 
 Feel free to add or tweak the setup as needed.
 
-This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `backend` and `frontend`. The entry point for the backend is `backend/src/index.js`.
+This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `backend` and `frontend`. The entry point for the backend is `backend/src/index.ts`.
 
 Any package manager can be used with this project (e.g. npm or yarn or pnpm).
 
